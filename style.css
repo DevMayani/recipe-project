@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.heading{
+  background-image: url(./chinese\ rice.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+}
+.rece{
+  padding: 300px 100px;
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+.spag{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: burlywood;
+  width: 90%;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.imh{
+  width: 40%;
+  height: 30vh;
+}
+.imhi{
+  width: 30%;
+  height: 40vh;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+  .heading{
+    background-image: url(./chinese\ rice.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .rece{
+    padding: 350px 450px;
+    cursor: pointer;
+  }
+}
