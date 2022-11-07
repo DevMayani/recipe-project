@@ -1,7 +1,7 @@
 *{
   padding: 0;
   margin: 0;
-  overflow: hidden;
+  /* overflow: hidden; */
   box-sizing: border-box;
 }
 .heading{
@@ -26,22 +26,63 @@ a{
   align-items: center;
   background-color: burlywood;
   width: 90%;
+  height: 90vh;
   border-radius: 10px;
   margin: auto;
   margin-top: 20px;
   cursor: pointer;
 }
 .imh{
-  width: 40%;
-  height: 30vh;
+  width: 50%;
+  height: 70vh;
 }
 .imhi{
-  width: 30%;
-  height: 40vh;
+  width: 50%;
+  height: 70vh;
 }
+.spa{
+ text-align: center;
+ width: 90%;
+ height: 650px;
+ margin: auto;
+}
+.org{
+  margin-top: 50px;
 
-
-
+}
+.tabl{
+  margin: auto;
+  text-align: center;
+}
+table, th, td {
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 20px;
+}
+li{
+  text-align: start;
+}
+.meth{
+  margin-top: 30px;
+}
+.hee{
+  margin-top: 20px;
+}
+.word{
+    margin-top: 20px;
+}
+.hist{
+  margin-top: 20px;
+}
+.the{
+  margin-top: 20px;
+}
+.meth{
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  line-height: 20px;
+}
 
 
 
@@ -61,5 +102,42 @@ a{
   .rece{
     padding: 350px 450px;
     cursor: pointer;
+  }
+  .word{
+    width: 60%;
+    height: 20vh;
+    margin: auto;
+    margin-top: 40px;
+  }
+  .tabl{
+    margin: auto;
+    text-align: center;
+    /* padding: 10px 10px; */
+   
+  }
+  table, th, td {
+    border: 1px solid black;
+    margin: auto;
+  }
+  li{
+    text-align: start;
+  }
+  .meth{
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 20px;
+  }
+  .org{
+    margin-top: 50px;
+  }
+  .the{
+    margin-top: 40px;
+  }
+  .hist{
+    margin-top: 40px;
+  }
+  .hee{
+    margin-top: 20px;
   }
 }
