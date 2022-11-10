@@ -1,7 +1,7 @@
 *{
   padding: 0;
   margin: 0;
-  /* overflow: hidden; */
+  overflow-x: hidden;
   box-sizing: border-box;
 }
 .heading{
@@ -10,6 +10,7 @@
   background-position: center;
   width: 100%;
   height: 100vh;
+  overflow: hidden;
 }
 .rece{
   padding: 300px 100px;
@@ -110,9 +111,24 @@ li{
 
 
 
+@media (min-width: 1400px) {
+  .rece{
+    padding: 300px 100px;
+    cursor: pointer;
+   text-align: center;
+}
+}
 
 
-@media (min-width: 768px) {
+@media only screen and (max-width: 1199px){
+  .rece{
+    padding: 300px 100px;
+    cursor: pointer;
+   text-align: center;
+}
+}
+
+@media (min-width: 767px) {
   .heading{
     background-image: url(./chinese\ rice.jpg);
     background-repeat: no-repeat;
@@ -121,8 +137,9 @@ li{
     height: 100vh;
   }
   .rece{
-    padding: 350px 450px;
+    /* padding: 350px 450px; */
     cursor: pointer;
+    margin-top: 100px;
   }
   .word{
     width: 60%;
@@ -136,9 +153,16 @@ li{
     /* padding: 10px 10px; */
    
   }
+  .spa{
+    text-align: center;
+    width: 90%;
+    height: 650px;
+    margin: auto;
+   }
   table, th, td {
     border: 1px solid black;
     margin: auto;
+    margin-top: 50px;
   }
   li{
     text-align: start;
@@ -170,6 +194,7 @@ li{
     background-color: whitesmoke;
    margin: auto;
    margin-top: 40px;
+   gap: 10px;
   }
   .card{
     border-radius: 10px;
@@ -178,6 +203,53 @@ li{
     height: 30vh;
     align-items: center;
   }
-  
-  
 }
+
+@media only screen and (max-width: 575px){
+  .rece{
+    padding: 383px 41px;
+    cursor: pointer;
+   text-align: center;
+}
+.food-item{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 90%;
+  height: 30vh;
+  background-color: whitesmoke;
+ margin: auto;
+ margin-top: 40px;
+ gap: 10px;
+}
+
+}
+@media only screen and (max-width: 450px){
+  .the{
+    /* margin-top: 20px; */
+    width: 70%;
+  }
+  .spag {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: burlywood;
+    width: 99%;
+    height: 90vh;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    gap: 10px;
+}
+}
+
+@media only screen and (max-width: 320px){
+  .rece{
+    padding: 300px 100px;
+    cursor: pointer;
+   text-align: center;
+  }
+}
+
+
