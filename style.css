@@ -120,11 +120,11 @@ li{
 }
 
 
-@media only screen and (max-width: 1199px){
+@media only screen and (max-width: 1399px){
   .rece{
-    /* padding: 300px 100px;
+    padding: 300px 100px;
     cursor: pointer;
-   text-align: center; */
+   text-align: center;
 }
 }
 
@@ -250,6 +250,10 @@ li{
     cursor: pointer;
    text-align: center;
   }
+  /* .the{
+    margin-top: 20px;
+    width: 70%;
+  } */
 }
 
 
