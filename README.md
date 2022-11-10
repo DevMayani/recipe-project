@@ -1,2 +1,4 @@
 # recipe-project
-recipe project for my favorite meal
+Recipe project for my favorite meal(Sphagetti Bolognese)
+
+
